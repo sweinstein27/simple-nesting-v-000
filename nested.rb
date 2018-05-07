@@ -1,12 +1,15 @@
 
 def hopper
+<<<<<<< HEAD
 
+=======
+>>>>>>> a063ac14788a9c5e74738c4e739b4b20b6cb4125
 	programmer_hash =
  		{
-        :grace_hopper => {
+        # :grace_hopper => {
           :known_for => "COBOL",
           :languages => ["COBOL", "FORTRAN"]
-        },
+        # },
         :alan_kay => {
           :known_for => "Object Orientation",
           :languages => ["Smalltalk", "LISP"]
@@ -88,6 +91,10 @@ programmer_hash[:yikihiro_matsumoto] = :languages
 programmer_hash[:yikihiro_matsumoto][:languages] << "LISP"
 programmer_hash[:yikihiro_matsumoto][:languages] << "C"
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> a063ac14788a9c5e74738c4e739b4b20b6cb4125
 end
 
 def changing_alan
